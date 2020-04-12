@@ -14,5 +14,6 @@ btn.addEventListener("click", function()
 
 
 function renderHTML(data){
-    animalContainer.insertAdjacentElement('beforeend', 'testing 123');
+    var htmlString = "this is a test";
+    animalContainer.insertAdjacentElement('beforeend', htmlString);
 }
